@@ -1,0 +1,42 @@
+.cards {
+display: flex;
+flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin: 10px;
+  flex-basis: 250px;
+  flex-grow: 1;
+}
+
+.card img {
+  width: 150px;
+  border-radius: 6px;
+  margin-right: 20px; /* ajouter une marge à droite de l'image */
+}
+
+.card a {
+  width: 150px; /* fixer la largeur du bouton */
+  background-color: #6D71DD;
+  padding: 25px 15px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  align-self: flex-end; /* aligner le bouton à droite */
+  align-self: center;
+  
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 18px;
+}
